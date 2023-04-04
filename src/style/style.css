@@ -1,0 +1,20 @@
+.section__main-banner {
+  padding-top: 68px;
+  padding-bottom: 4px;
+}
+
+.section__main-top + .section__main-banner {
+  padding-top: 40px;
+}
+
+.section__main-banner .link__banner {
+  display: block;
+  overflow: hidden;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.section__main-banner .link__banner .image {
+  height: 100%;
+  border-radius: 6px;
+}

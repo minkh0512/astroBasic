@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Banner from '../components/Banner.astro';
+import BannerJSX from '../components/Banner.jsx';
+import '../style/style.css';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<ul role="list" class="link-card-grid">
+			<Banner />
+			<BannerJSX />
+		</ul>
+	</main>
+</Layout>
